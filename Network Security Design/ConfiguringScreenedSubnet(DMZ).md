@@ -1,6 +1,6 @@
 ## Lab – Configuring a Screened Subnet/DMZ Using pfSense
 
-🎥 [Watch the walkthrough video](https://youtu.be/your-video-id)
+🎥 [Watch the walkthrough video](https://youtu.be/rO2jFewfGWE)
 
 🎯 **Objective:**  
 Set up a secure DMZ network behind a pfSense Security Gateway to host a web server and additional internet-facing devices.
