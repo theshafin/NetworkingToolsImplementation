@@ -1,4 +1,4 @@
-## Lab – Configuring a Screened Subnet/DMZ Using pfSense
+##Configuring a Screened Subnet/DMZ Using pfSense
 
 🎥 [Watch the walkthrough video](https://youtu.be/rO2jFewfGWE)
 
