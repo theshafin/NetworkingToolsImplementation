@@ -1,0 +1,12 @@
+# Allow Remote Desktop Connections
+
+## Objective
+Enable Remote Desktop access, add a user, and confirm firewall settings.
+
+## Steps Performed
+1. Enabled Remote Desktop in **Settings**.  
+2. Added a user to **Remote Desktop users**.  
+3. Verified **firewall** allows Remote Desktop for Domain, Private, and Public networks.  
+
+## Video Walkthrough
+[Watch on YouTube](https://youtu.be/7NJpjdMWuig)  
