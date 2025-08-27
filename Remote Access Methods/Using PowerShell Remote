@@ -1,0 +1,33 @@
+# Remote PowerShell Connectivity Test
+
+## Objective
+Verify whether a workstation can connect to the ISP gateway by using remote PowerShell commands.
+
+
+🎥 [Watch the walkthrough video](https://youtu.be/I9eD4eKSrUY)
+
+## Environment / Setup
+- **Target Computer:** Workstation under test  
+- **Admin Computer:** Technician’s computer  
+- **Destination:** ISP gateway  
+
+## Steps Performed
+1. On the target computer, opened PowerShell.  
+2. Enabled remoting with:  
+   ```powershell
+   Enable-PSRemoting -Force
+   ```  
+3. On the admin computer, opened PowerShell.  
+4. Initiated a remote session to the target computer.  
+5. Ran the traceroute command to the ISP gateway:  
+   ```powershell
+   tracert <ISP_Gateway_IP>
+   ```  
+6. Observed the results to confirm ISP connectivity.  
+
+## Key Takeaways
+- PowerShell remoting allows remote troubleshooting without visiting the user’s desk.  
+- `tracert` can confirm connectivity to the ISP gateway.  
+
+## Real-World Application
+This method can be used in large networks to quickly test and verify user connectivity without physical access.  
