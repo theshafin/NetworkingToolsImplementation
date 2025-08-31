@@ -1,0 +1,20 @@
+# Configure Network Policy Server and RADIUS Clients
+
+## Objective
+- Install and configure the Network Policy Server (NPS) role.  
+- Add RADIUS clients on the NPS server.  
+- Create and apply a network policy for a specific group.  
+- Configure VPN servers to use RADIUS for authentication and accounting.  
+
+## Steps Performed
+1. Installed the **Network Policy and Access Services** role.  
+2. Configured **RADIUS clients** on the NPS server with a shared secret.  
+3. Created a **network policy** for a user group, granting access and applying authentication settings.  
+4. Configured **VPN servers** as RADIUS clients, enabling both authentication and accounting with the shared secret.  
+
+## Key Points
+- NPS centralizes authentication and policy management.  
+- RADIUS clients must share the same secret with the NPS server.  
+- Network policies define which groups are granted or denied access.  
+- VPN servers rely on RADIUS for secure remote authentication and logging.  
+
